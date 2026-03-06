@@ -1,8 +1,19 @@
-import React from 'react'
+import React from 'react';
+import MovieImg from '../assets/landing-img.svg';
 
 const Landing = () => {
   return (
-    <div>Landing</div>
+    <>
+      <div className="landing__container container">
+        <div className="landing__row">
+          <h1 className="gold">RIMBERIO</h1>
+          <h2>Browse Your Favorite Films</h2>
+          <div className="landing__img--container">
+            <img src={ MovieImg } className="landing--img" />
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
